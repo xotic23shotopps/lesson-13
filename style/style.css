@@ -1,0 +1,62 @@
+/*ul {
+    list-style-type: circle;
+    list-style-type:square;
+    list-style-image:url(../images/spiderman.png) ;
+    
+}
+.name {
+    list-style-type: georgian;
+    list-style-type: square;
+    list-style-image: url(../images/pinguin.png);
+}
+ol {
+    list-style-type: upper-roman;
+    list-style-type: lower-roman;
+}*/
+ul {
+    list-style-type: none;
+    padding:0%;
+    border: 2px solid gray;
+}
+ul li {
+    padding: 8px 16px;
+    border-bottom: 1px solid gray;
+}
+ol {
+    background: #ffeeee;
+    padding:15px;   
+}
+ol li {
+    background: #ffe5e5;
+    padding:10px;
+    margin-left: 30px;  
+}
+/*table {
+    border: 1px solid #eee;
+    padding: 15px;
+}
+tbody tr:nth-child(odd){
+    background-color: #ff33cc;
+}
+div {
+    overflow:scroll;
+    background-color: #e495e4;
+    width:200px;
+    height:200px;
+}
+*/
+div {
+    overflow: visible;
+    background-color: red;
+    width:200;
+    height: 200px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+th, td{
+    text-align: left;
+    padding : 10px;
+}
